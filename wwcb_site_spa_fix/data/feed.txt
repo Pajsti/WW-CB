@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "title": "Skvělý závod na řece Malše",
+    "date": "2025-09-12",
+    "image": "https://images.unsplash.com/photo-1504198458649-3128b932f49b?q=80&w=1600&auto=format&fit=crop",
+    "excerpt": "Dnes proběhl parádní závod. Trať byla rychlá, startovní pole plné talentů a počasí přálo. Tady je krátký preview...",
+    "content": "<p>Plný text článku 1 — tady napíšeš celý report, fotky, výsledky atd.</p><p>Více obsahu, galerie a tabulky výsledků.</p>"
+  },
+  {
+    "id": "2",
+    "title": "Trénink mládeže — shrnutí týde",
+    "date": "2025-08-30",
+    "image": "https://images.unsplash.com/photo-1526403224744-22f1e6f24a06?q=80&w=1600&auto=format&fit=crop",
+    "excerpt": "Mládež makala! Byly tam techniky na slalomu, starty i práce se stabilitou v lodi. Krátký preview tady...",
+    "content": "<p>Plný text článku 2 — obsahuje tipy na trénink, fotky a poznámky trenéra.</p>"
+  },
+  {
+    "id": "3",
+    "title": "Fotogalerie ze závodů — nejlepší momenty",
+    "date": "2025-07-18",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1600&auto=format&fit=crop",
+    "excerpt": "Vybral jsem top snímky z posledních závodů. Mrkni na galerii a dej like na IG.",
+    "content": "<p>Plný text článku 3 — popisky fotek, odkazy a credit fotografovi.</p>"
+  },
+  {
+    "id": "4",
+    "title": "Další super závod",
+    "date": "2025-06-15",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1600&auto=format&fit=crop",
+    "excerpt": "Další parádní akce s hodně rychlým časem a skvělou atmosférou.",
+    "content": "<p>Plný text článku 4 — další obsah pro test.</p>"
+  },
+  {
+    "id": "5",
+    "title": "MČR a Český pohár na Lipně",
+    "date": "2025-08-29",
+    "image": "https://static.wixstatic.com/media/41bc47_ef43f05a457c488bbd8be17696ee729e~mv2.jpg",
+    "excerpt": "MČR na Lipně",
+    "content": "<p>test</p>"
+  }
+]
