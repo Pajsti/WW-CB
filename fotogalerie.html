@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Fotogalerie — WW-CB</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div id="site-header"></div>
+
+  <main id="app-content" data-page="fotogalerie.html" class="site">
+    <h2 class="section-title">Fotogalerie</h2>
+    
+    <!-- List událostí -->
+    <div id="events-list" class="events-grid"></div>
+    
+    <!-- Detail galerie -->
+    <div id="gallery-detail" style="display:none;">
+      <a href="#" id="backToEvents" class="back" style="display:inline-block;margin-bottom:12px;color:var(--muted);text-decoration:none;font-weight:600">← Zpět</a>
+      <h3 id="eventTitle">Načítám...</h3>
+      <div class="photos-grid" id="photosGrid"></div>
+    </div>
+  </main>
+
+  <!-- Fullscreen modal -->
+  <div id="fullscreenModal" class="fullscreen-modal" style="display:none;">
+    <button id="closeModal" class="modal-close">×</button>
+    <button id="prevModal" class="modal-nav modal-prev">‹</button>
+    <img id="modalImg" src="" alt="">
+    <button id="nextModal" class="modal-nav modal-next">›</button>
+    <div class="modal-counter" id="modalCounter">1 / 1</div>
+  </div>
+
+  <div id="site-footer"></div>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
