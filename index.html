@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>WW-CB — Ahoj</title>
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="site-header"></div>
+<script src="js/scripts.js"></script>
+
+
+<main class="site" id="app-content" data-page="index.html">
+  <section class="hero">
+    <div class="hero-left card">
+      <div class="kicker" data-i18n="hero.kicker">Oficiální stránky</div>
+      <h2 data-i18n="hero.title">Divoká voda — ČB</h2>
+      <p class="muted" data-i18n="hero.lead">Aktuality, galerie, program a live výsledky.</p>
+
+      <div class="features" role="list">
+        <div class="feature-card card" role="listitem">
+          <strong data-i18n="feat.news">Aktuality</strong>
+          <div class="muted" data-i18n="feat.news-desc">Novinky, reporty a články z akcí.</div>
+          <div style="margin-top:auto"><a href="media.html" class="btn" data-i18n="feat.read">Číst</a></div>
+        </div>
+
+        <div class="feature-card card">
+          <strong data-i18n="feat.gallery">Fotogalerie</strong>
+          <div class="muted" data-i18n="feat.gallery-desc">Fotky ze závodů a tréninků.</div>
+          <div style="margin-top:auto"><a href="fotogalerie.html" class="btn" data-i18n="feat.open">Otevřít</a></div>
+        </div>
+
+        <div class="feature-card card">
+          <strong data-i18n="feat.schedule">Harmonogram</strong>
+          <div class="muted" data-i18n="feat.schedule-desc">Program závodních dnů a startovní listiny.</div>
+          <div style="margin-top:auto"><a href="schedule.html" class="btn" data-i18n="feat.view">Zobrazit</a></div>
+        </div>
+      </div>
+    </div>
+
+    <aside class="card">
+      <h3 data-i18n="aside.quick">Rychlé odkazy</h3>
+      <div class="quicklist">
+        <a href="live-tv.html" data-i18n="aside.live">Live TV</a>
+        <a href="race-office.html" data-i18n="aside.race">Race Office</a>
+        <a href="official-documents.html" data-i18n="aside.docs">Oficiální dokumenty</a>
+        <a href="sponsors.html" data-i18n="aside.sponsors">Sponzoři</a>
+      </div>
+    </aside>
+  </section>
+
+  <section style="margin-top:20px" class="card">
+    <h3 data-i18n="news.title">Nejnovější</h3>
+    <div id="newsCarousel"></div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+
+
+
+
+</body>
+</html>
